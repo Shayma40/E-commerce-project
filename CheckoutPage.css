@@ -1,0 +1,122 @@
+.checkout-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    padding: 20px; 
+  }
+  
+  .checkout-container {
+    background-color: #EFECEC; 
+    padding: 40px;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    position: relative;
+  }
+  
+  .checkout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #252525;
+    margin-bottom: 20px;
+  }
+
+  .close-icon {
+    cursor: pointer;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #505655;
+    margin-bottom: 20px;
+  }
+  
+.checkout-input, .checkout-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #b7b7b7;
+    font-size: 1rem;
+    background-color: #EFECEC;
+  }
+  
+.checkout-button {
+    background-color: #252525;
+    color: #EFECEC;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+/* .checkout-button:hover {
+    background-color: #505655;
+    opacity: 0.9;
+    transform: scale(1.05);
+} */
+
+button:disabled {
+    background-color: #505655;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.bank-transfer-section {
+  background-color: #EFECEC;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.bank-details {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.order-summary {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.order-summary p, .order-summary h4 {
+  margin: 5px 0;
+}
+
+.checkout-button {
+  background-color: #252525;
+  color: #EFECEC;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #505655;
+}

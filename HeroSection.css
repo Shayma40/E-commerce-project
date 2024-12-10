@@ -1,0 +1,56 @@
+.hero-section {
+    display: grid;
+    gap: 25px;
+    background-color: #EFECEC;
+    color: #505655;
+    padding: 100px;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    gap: 25px;
+}
+
+.image {
+    border: 1px solid #b7b7b7;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer; 
+    position: relative; 
+}
+
+.image:hover {
+    transform: scale(1.05); 
+}
+
+.top-row .image.small {
+    flex: 1; 
+}
+
+.top-row .image.large {
+    flex: 2;
+}
+
+.bottom-row .image {
+    flex: 1; 
+}
+
+.label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #EFECEC;
+    padding: 5px 10px;
+    font-size: 1em;
+    text-transform: uppercase; 
+    border-radius: 15px; 
+}

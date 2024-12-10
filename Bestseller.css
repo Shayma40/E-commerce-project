@@ -1,0 +1,58 @@
+.bestseller-page {
+    background-color: #EFECEC;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* .bestseller-page h1 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #505655;
+    margin-bottom: 30px;
+  } */
+
+.bestseller-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.bestseller-item {
+    background-color: #EFECEC;
+    padding: 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bestseller-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bestseller-info h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #505655;
+    display: flex;
+    justify-content: left;
+}
+
+.bestseller-info p {
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+    color: #505655;
+}
+
+.bestseller-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}

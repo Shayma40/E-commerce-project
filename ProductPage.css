@@ -1,0 +1,108 @@
+.product-page-container {
+    background-color: #EFECEC;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-page-container .product-details {
+    display: flex;
+    max-width: 900px;
+    background-color: #EFECEC;
+    padding: 20px;
+    /* margin-left: 100px; */
+  }
+  
+  .product-page-container .product-image {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid #b7b7b7;
+    margin-right: 20px;
+  }
+  
+  .product-page-container .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-page-container .product-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #505655;
+  }
+  
+  .product-page-container .product-price {
+    font-size: 1.5rem;
+    color: #505655;
+    margin-bottom: 20px;
+  }
+  
+  .product-page-container .product-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #505655;
+  }
+  
+  .product-page-container .quantity-selector {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #505655;
+  }
+  
+  .product-page-container .quantity-selector label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .product-page-container .quantity-selector input {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 10px;
+    background-color: #EFECEC;
+  }
+  
+  .product-page-container .product-actions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-page-container .add-to-cart-btn, 
+  .product-page-container .buy-it-now-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-page-container .add-to-cart-btn {
+    background-color: #EFECEC;
+    color: #505655;
+    border: 2px solid  #505655;
+
+  }
+  
+  .product-page-container .buy-it-now-btn {
+    background-color: #505655;
+    color: #EFECEC;
+  }
+  
+  .product-page-container .add-to-cart-btn:hover, 
+  .product-page-container .buy-it-now-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
